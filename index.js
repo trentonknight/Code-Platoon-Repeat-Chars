@@ -11,5 +11,8 @@ function repeatedChars(charArray, numArray) {
 return wordup.join('');
 }
 
+module.exports = repeatedChars;
+
 console.log(repeatedChars(['a','b','c'], [1,2,3])); 
 console.log(repeatedChars(['h','e','l','o'], [1,1,2,1])); 
+
