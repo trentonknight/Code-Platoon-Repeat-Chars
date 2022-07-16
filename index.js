@@ -3,17 +3,11 @@ function repeatedChars(charArray, numArray) {
 	const wordup = [];
 
 	for (const key of iterator) {
-		//console.log(numArray[key]);
-		let i = numArray[key];
-
-		for (incr = 0; incr < i; incr++){
+		for (incr = 0; incr < numArray[key]; incr++){
 			wordup.push(charArray[key]);
-
 	}
 
-
 }
-
 return wordup.join('');
 }
 
